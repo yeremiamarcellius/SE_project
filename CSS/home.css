@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+nav{
+    background-color: #191824;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.navpic{
+    height: 50px;
+}
+
+#navigation{
+    width: 30%;
+}
+
+#navigationpic{
+    width: 15%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+img{
+    height: 90%;
+    padding: 5%;
+}
+
+#body{
+    height: 80vh;
+}
+
+footer{
+    height: 10vh;   
+    background-color: #F04B5C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}

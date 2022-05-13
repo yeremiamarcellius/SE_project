@@ -1,0 +1,261 @@
+.container h1{
+    color: #F04B5C;
+    margin: 10px;
+}
+
+.container h3{
+    margin: 15px 0px 50px;
+}
+
+.container h3 a{
+    color: #191824;
+}
+
+.container .Payment{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container .Payment .PaymentDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 660px;
+}
+
+.container .Payment .PaymentDetail .ProductDetail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container .Payment .PaymentDetail .ProductDetail img{
+    width: 30%;
+    border-radius: 5px;
+}
+
+.container .Payment .PaymentDetail .ProductDetail .ProductPrice{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    Margin: 0px 10px;
+}
+
+.container .Payment .PaymentDetail .ProductDetail .ProductQuantity{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
+}
+
+.container .Payment .PaymentDetail .ProductDetail .ProductPrice > p,
+.container .Payment .PaymentDetail .ProductDetail .ProductQuantity > p{
+    margin: 5px 0px 10px;
+    color: #F04B5C;
+}
+
+.container .Payment .hr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 20px;
+}
+
+.container .Payment .hr hr{
+    background-color: #191824;
+    height: 1px;
+}
+
+.container .Payment .PaymentDetail .Price-Label{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    font-size: medium;
+    height: 40px;
+    align-items: center;
+}
+
+.container .Payment .PaymentDetail .Price-Label > div{
+    color: #F04B5C;
+}
+
+.container .Payment .PaymentDetail .Price-Label .TotalPrice{
+    font-size: x-large;
+}
+
+.container .Payment .PaymentData{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Payment .PaymentData .PaymentSuccess{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    width: 40%;
+}
+
+.container .Payment .PaymentData .PaymentSuccess > img{
+    width: 40%;
+}
+
+.container .Payment .PaymentData .PaymentSuccess > h1{
+    color:rgb(31, 233, 31);
+    margin: 10px 0px 40px;
+    font-size: 2vw;
+}
+
+.container .Payment .PaymentData .PaymentSuccess > p{
+    text-align: center;
+    font-size: 1.2vw;
+    width: 80%;
+}
+
+.container .Payment .PaymentData .CustomerData{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container .Payment .PaymentData .CustomerData .Data-Label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+.container .Payment .PaymentData .CustomerData .Data-Label label{
+    width: 20%;
+    font-size: larger;
+}
+
+.container .Payment .PaymentData .CustomerData .Data-Label input{
+    width: 60%;
+    overflow: visible;
+    border: none;
+    font-size: larger;
+}
+
+.container .Payment .PaymentData .CustomerData .Data-Label .Edit-Data{
+    margin-left: 10%;
+    width: 10%;
+}
+
+.container .Payment .PaymentData .PaymentMethod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.container .Payment .PaymentData .PaymentMethod > p{
+    color: red;
+    font-size: large;
+    margin: 10px 0px 15px;
+    font-weight: bold;
+}
+
+.container .Payment .PaymentData .PaymentMethod .CreditCard{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    align-items: center;
+}
+
+.container .Payment .PaymentData .PaymentMethod .CreditCard img{
+    width: 40px;
+    margin: 10px 15px;
+    background-color: white;
+    border-radius: 17%;
+}
+
+.container .Payment .PaymentData .PaymentMethod .CreditCard > p{
+    color: white;
+}
+
+.container .Payment .PaymentData .PaymentMethod .CreditCardData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 10px;
+    border: black solid 1px;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 30px;
+}
+.container .Payment .PaymentData .CreditCardData-Label{
+    border: gray solid 1px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.container .Payment .PaymentData .CreditCardData-Label > img{
+    width: 10px;
+    margin-left: 10px;
+}
+
+.container .Payment .PaymentData .CreditCardData-Label > input{
+    width: 100%;
+    border: none;
+    font-size: medium;
+}
+
+.container .Payment .PaymentData .PaymentMethod .CreditCardData .Expiration{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container .Payment .PaymentData .PaymentMethod .CreditCardData .Expiration .CreditCardData-Label{
+    width: 50%;
+}
+
+.container .Payment .PaymentData .PaymentMethod .CreditCardData .Expiration .CreditCardData-Label > img{
+    width: 20px;
+}
+
+.container .Payment .PaymentData .TaxInformation{
+    margin-bottom: 30px;
+}
+
+.container .Payment .PaymentData .TaxInformation > p{
+    color: red;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.container .Payment .PaymentData .ButtonPurchase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.container .Payment .PaymentData .ButtonPurchase button{
+    font-size: medium;
+    padding: 5px 25px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+

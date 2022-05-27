@@ -137,11 +137,19 @@ h1{
 }
 
 footer{
-    height: 10vh;   
+    height: 20vh;   
     background-color: #F04B5C;
+    padding-top: 50px;
     color: #FFFFFF;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     font-family: 'Poppins';
+}
+
+footer h2{
+    font-weight: bold;
+}
+
+footer img{
+    margin: 10px;
 }

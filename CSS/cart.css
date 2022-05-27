@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+nav{
+    background-color: #191824;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.navpic{
+    height: 50px;
+}
+
+#navigation{
+    width: 30%;
+}
+
+#navigationpic{
+    width: 15%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    height: 90%;
+    padding: 5%;
+}
+
+#body{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+hr{
+    height: 2px;
+    background-color: #191824;
+}
+
+.maroon{
+    color: #F04B5C;
+}
+
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 10px;
+}
+
+.cart img{
+    width: 30%;
+}
+
+.cart ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+#quantity{
+    padding: 30px;
+}
+
+#quantityButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F04B5C;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+#quantityButton button{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.product{
+    display: flex;
+}
+
+.product h1{
+    margin-left: 20px;
+}
+
+#buy{
+    display: flex;
+    align-items: center;
+    /* width: 60vw; */
+    /* justify-content: flex-end; */
+}
+
+#buyDetail{
+    text-align: right;
+    width: 80%;
+}
+
+.button{
+    background-color: #191824;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 20%;
+    height: 40px;
+    /* margin-bottom: 1%; */
+    border-radius: 10px;
+    margin: 30px;
+}
+
+footer{
+    height: 10vh;   
+    background-color: #F04B5C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}

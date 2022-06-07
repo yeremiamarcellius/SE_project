@@ -28,11 +28,19 @@ nav{
 ul{
     list-style: none;
     display: flex;
-    color: #FFFFFF;
     font-family: 'Poppins';
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+ul a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul a:hover{
+    color: #F04B5C;
 }
 
 nav img{

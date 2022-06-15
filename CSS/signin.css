@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins';
+}
+
+nav{
+    background-color: #191824;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img{
+    height: 90%;
+    padding: 5%;
+}
+
+
+
+.input-field{
+    display: flex;
+}
+
+footer{
+    height: 10vh;   
+    background-color: #F04B5C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    height: 80vh;
+}
+
+.tempat_isi{
+    width: 36%;
+
+}
+
+.ilustrasi{
+    width: 64%;
+}
+
+.ilustrasi img{
+    margin-top: 4%;
+    width: 43%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    top: 43%;
+    left: 63%;
+    position: absolute;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #F04B5C;
+}
+
+.input-field{
+    max-width: 300px;
+    width: 100%;
+    height: 55px;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+}
+
+.input-field input{
+    border-width: 4px;
+    color: black;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding-left: 20px;
+
+}
+
+.btn{
+    border: 2px solid #fff568;
+    height: 50px;
+    width: 160px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 25px; */
+    padding-top: 20;
+    border: none;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 0;
+    transition: all 0.5s;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn value{
+    font-size: 1px
+}
+
+.btn:hover{
+    background-color:  #F04B5C;
+    border-radius: 1.5rem;
+    transition: ease-in-out 200ms;
+    text-decoration: none;
+}
+
+.sign-in-form{
+    margin-left: 6px;
+}
+
+.sign-in{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 25%;
+}
+
+h2{
+    text-decoration: none;
+    color: white;
+}
+
+a:link { 
+    text-decoration: none; 
+}

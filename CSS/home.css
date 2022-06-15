@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding: 0;;
+    padding: 0;
+    font-family: 'poppins';
 }
 
 nav{
@@ -42,13 +43,16 @@ ul a:hover{
     color: #F04B5C;
 }
 
-nav img{
-    height: 90%;
-    padding: 5%;
+nav a{
+    margin: 0px 5%;
+}
+
+nav a img{
+    height: 9vh;
 }
 
 #body{
-    min-height: 80vh;
+    min-height: 66.4vh;
     display: flex;
     justify-content: center;
 }
@@ -59,16 +63,16 @@ nav img{
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 1600px;
 }
 
-footer{
-    height: 20vh;   
+footer{ 
     background-color: #F04B5C;
-    padding-top: 50px;
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
     font-family: 'Poppins';
+    padding: 30px 10px;
 }
 
 footer h2{

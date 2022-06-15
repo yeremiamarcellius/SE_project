@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/home.css">
     <link rel="stylesheet" href="../CSS/cart.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,10 +13,12 @@
 </head>
 <body>
     <nav>
-        <img src="../Assets/logo.png" alt="">
+        <a href="home.html">
+            <img src="../Assets/logo.png" alt="">
+        </a>
         <div id="navigation">
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="">Product</a></li>
                 <li><a href="">Destination</a></li>
             </ul>
@@ -29,51 +32,55 @@
         </div>
     </nav>
     <div id="body">
-        <h2 class="maroon">Your cart items</h2>
-        <a href="">Back to Product</a>
-        <div>
-            <div class="cart">
-                <div class="maroon">
-                    Product
+        <div class="container">
+            <h2 class="maroon">Your cart items</h2>
+            <a href="">Back to Product</a>
+            <div>
+                <div class="cart">
+                    <div class="maroon">
+                        Product
+                    </div>
+                    <div>
+                        <ul class="maroon">
+                            <li>Price</li>
+                            <li>Quantity</li>
+                            <li>Total</li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <ul class="maroon">
-                        <li>Price</li>
-                        <li>Quantity</li>
-                        <li>Total</li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <div class="cart">
-                <div class="maroon product">
-                    <img src="../Assets/product/sneakers.jpg" alt="">
-                    <h1>Sneakers XXX</h1>
-                </div>
-                <div>
-                    <ul class="maroon">
-                        <li>$ 99.99</li>
-                        <li>
-                            <div id="quantity">
-                                <div id="quantityButton">
-                                    <button>-</button>
-                                    <p>1</p>
-                                    <button>+</button>
+                <hr>
+                <div class="cart">
+                    <div class="maroon product">
+                        <img src="../Assets/product/sneakers.jpg" alt="">
+                        <h1>Sneakers XXX</h1>
+                    </div>
+                    <div>
+                        <ul class="maroon">
+                            <li>$ 99.99</li>
+                            <li>
+                                <div id="quantity">
+                                    <div id="quantityButton">
+                                        <button>-</button>
+                                        <p>1</p>
+                                        <button>+</button>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>$ 99.99</li>
-                    </ul>
+                            </li>
+                            <li>$ 99.99</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <hr>
-            <div id="buy">
-                <div id="buyDetail">
-                    <h2 class="maroon">Sub-total &nbsp; $ 99.99</h2>
-                    <p>Service charge will be calculated later</p>
-                </div>
-                <div class="button">
-                    <p>CHECK OUT</p>
+                <hr>
+                <div id="buy">
+                    <div id="buyDetail">
+                        <h2 class="maroon">Sub-total &nbsp; $ 99.99</h2>
+                        <p>Service charge will be calculated later</p>
+                    </div>
+                    <a href="payment.html">
+                        <div class="button">
+                            <p>CHECK OUT</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

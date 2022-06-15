@@ -1,37 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    /* box-sizing: border-box; */
-    font-family: 'Poppins';
-}
-
-nav{
-    background-color: #191824;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav img{
-    height: 90%;
-    padding: 5%;
-}
-
-
-
 .input-field{
     display: flex;
-}
-
-footer{
-    height: 10vh;   
-    background-color: #F04B5C;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins';
 }
 
 .container{

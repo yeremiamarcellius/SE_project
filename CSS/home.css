@@ -61,6 +61,10 @@ nav a img{
     height: 9vh;
 }
 
+.signin{
+    width: 70px;
+}
+
 .body_content{
     min-height: 66.4vh;
     display: flex;

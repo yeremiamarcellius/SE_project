@@ -9,6 +9,7 @@
 
 .container h3 a{
     color: #191824;
+    text-decoration: underline;
 }
 
 .container .Payment{
@@ -163,7 +164,7 @@
 }
 
 .container .Payment .PaymentData .PaymentMethod > p{
-    color: red;
+    color: #F04B5C;
     font-size: large;
     margin: 10px 0px 15px;
     font-weight: bold;
@@ -171,7 +172,7 @@
 
 .container .Payment .PaymentData .PaymentMethod .CreditCard{
     display: flex;
-    background-color: black;
+    background-color: #191824;
     width: 100%;
     border-radius: 5px 5px 0px 0px;
     align-items: center;
@@ -193,7 +194,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 15px 10px;
-    border: black solid 1px;
+    border: #191824 solid 1px;
     border-radius: 0px 0px 5px 5px;
     margin-bottom: 30px;
 }
@@ -237,7 +238,7 @@
 }
 
 .container .Payment .PaymentData .TaxInformation > p{
-    color: red;
+    color: #F04B5C;
     margin-bottom: 15px;
     font-weight: bold;
     font-size: large;
@@ -253,9 +254,13 @@
 .container .Payment .PaymentData .ButtonPurchase button{
     font-size: medium;
     padding: 5px 25px;
-    background-color: gray;
+    background-color: #191824;
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+.container .Payment .PaymentData .ButtonPurchase button:hover{
+    color: #F04B5C;
 }
 
